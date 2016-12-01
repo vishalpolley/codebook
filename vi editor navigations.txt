@@ -1,4 +1,4 @@
-Vim navigation:-                                        esc - XMod
+1). Vim navigation:-                                        esc - XMod
 
 h - move cursor left
 j - move cursor down
@@ -13,30 +13,30 @@ L - move cursor to last window line
 $ - move cursor to the last point of that line
 ^ - move cursor to the beginning of the line(non-spaced)
 
-Vim for copying and pasting multiple lines:-
+2). Vim for copying and pasting multiple lines:-
 
 :(go to that line) -> now press how many lines below you want to copy -> press 'yy' for yanking -> now press 'P' to paste the lines
 
-Vim deletion:-
+3). Vim deletion:-
  
 :(go to that line) -> now press 'x' to delete characters
 
 
 :(go to that line) -> press '$' -> now enter how many characters you want to delete in one go from backward -> now press 'X' to delete
 
-Vim delete and undelete line:-
+4). Vim delete and undelete line:-
 
 press 'dd' to delete that particular line and press 'u' to undo that change.
 
-Vim moving entire line up and down:-
+5). Vim moving entire line up and down:-
 
 go to that particular line -> press no. of lines you want to move and press 'dd' -> now press 'P' where you wanted to paste these lines
 
-Vim line numbers:-
+6). Vim line numbers:-
 
 Go to XMod and then write 'set numbers' to display line numbers before every line
 
-Vim finding:-
+7). Vim finding:-
 
 Go to XMod and type '/name of keyword you want to search' , now for traversing through multiple results press 'n'
 
